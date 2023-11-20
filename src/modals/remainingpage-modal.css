@@ -1,4 +1,4 @@
-.landingpage-modal-card {
+.remainingpage-modal-card {
     position: fixed;
     top: 62vh;
     left: 81vw;
@@ -8,38 +8,38 @@
     box-shadow: 1px 1px 4px rgb(20, 184, 234) !important;
 }
 
-.landingpage-modal-container {
+.remainingpage-modal-container {
     display: flex;
     margin-bottom: 4vh;
 }
 
-.landingpage-modal-button {
+.remainingpage-modal-button {
     font-size: 1.8vw;
     margin-left: 2vw;
     color: white;
 }
 
-.landingpage-modal-button:hover {
+.remainingpage-modal-button:hover {
     cursor: pointer;
-    color: #ff9d00ea; /* Dark Orange */
-    text-shadow: 0 0 5px rgba(255, 153, 0, 0.7), 0 0 10px rgba(255, 170, 0, 0.5), 0 0 15px rgba(255, 187, 0, 0.3); 
+    color: rgb(20, 184, 234); /* Dark Orange */
+    text-shadow: 0 0 5px rgba(20, 184, 234, 0.953), 0 0 10px rgba(20, 184, 234, 0.707), 0 0 15px rgba(20, 184, 234, 0.526); 
 }
 
-.landingpage-modal-content1 {
+.remainingpage-modal-content1 {
     font-family: poppins !important;
     font-weight: 500;
     font-size: 1.2vw;
     color: white;
 }
 
-.landingpage-modal-content1:hover {
+.remainingpage-modal-content1:hover {
     cursor: pointer;
     text-decoration: underline;
-        color: #ff9d00ea; /* Dark Orange */
-        text-shadow: 0 0 5px rgba(255, 153, 0, 0.7), 0 0 10px rgba(255, 170, 0, 0.5), 0 0 15px rgba(255, 187, 0, 0.3); 
+        color: rgb(20, 184, 234); /* Dark Orange */
+        text-shadow: 0 0 5px rgba(20, 184, 234, 0.953), 0 0 10px rgba(20, 184, 234, 0.707), 0 0 15px rgba(20, 184, 234, 0.526); 
 }
 
-.landingpage-modal-content {
+.remainingpage-modal-content {
     font-family: poppins;
     font-weight: 500;
     margin-top: 0.5vh;
@@ -47,15 +47,15 @@
     color: white;
 }
 
-.landingpage-modal-content:hover {
+.remainingpage-modal-content:hover {
     cursor: pointer;
     text-decoration: underline;
-    color: #ff9d00ea; /* Dark Orange */
-    text-shadow: 0 0 5px rgba(255, 153, 0, 0.7), 0 0 10px rgba(255, 170, 0, 0.5), 0 0 15px rgba(255, 187, 0, 0.3); 
+    color: rgb(20, 184, 234); /* Dark Orange */
+    text-shadow: 0 0 5px rgba(20, 184, 234, 0.953), 0 0 10px rgba(20, 184, 234, 0.707), 0 0 15px rgba(20, 184, 234, 0.526);  
 }
 
-.landingpage-modal-card::before,
-.landingpage-modal-card::after {
+.remainingpage-modal-card::before,
+.remainingpage-modal-card::after {
     content: "";
     position: absolute;
     height: 0vw;
@@ -64,13 +64,13 @@
     width: 10vw;
 }
 
-.landingpage-modal-card::before {
+.remainingpage-modal-card::before {
     transform: skewX(-45deg);
     border-top: 7px solid rgba(20, 184, 234, 0.6);
     margin-right: 4vw;
 }
 
-.landingpage-modal-card::after {
+.remainingpage-modal-card::after {
     transform: skewX(135deg);
     bottom: 0;
     top: auto;
@@ -80,7 +80,7 @@
 
 
 @media (max-width: 1150px) {
-    .landingpage-modal-card {
+    .remainingpage-modal-card {
         top: 70vh;
         width: 14vw;
         left: 80vw;
@@ -88,13 +88,13 @@
 }
 
 @media (max-width: 900px) {
-    .landingpage-modal-card {
+    .remainingpage-modal-card {
         top: 71vh
     }
 }
 
 @media (max-width: 750px) {
-    .landingpage-modal-card {
+    .remainingpage-modal-card {
         position: fixed;
         top: 68vh;
         left: 78vw;
@@ -102,36 +102,36 @@
         width: 19vw;
     }
 
-    .landingpage-modal-container {
+    .remainingpage-modal-container {
         display: flex;
         color: white;
     }
 
-    .landingpage-modal-content {
+    .remainingpage-modal-content {
         font-family: cursive;
         font-weight: bold;
         margin-top: 0.7vh;
         font-size: 1.8vw;
     }
 
-    .landingpage-modal-button {
+    .remainingpage-modal-button {
         font-size: 2.5vw;
         margin-left: 1vw;
     }
 
-    .landingpage-modal-content1 {
+    .remainingpage-modal-content1 {
         font-family: cursive !important;
         font-weight: bold !important;
         font-size: 2vw;
     }
 
-    .landingpage-modal-card::after {
+    .remainingpage-modal-card::after {
         margin-left: 9vw;
     }
 }
 
 @media (max-width: 500px) {
-    .landingpage-modal-card {
+    .remainingpage-modal-card {
         position: fixed;
         top: 66vh;
         left: 67vw;
@@ -139,31 +139,31 @@
         width: 27vw;
     }
 
-    .landingpage-modal-container {
+    .remainingpage-modal-container {
         display: flex;
         margin-bottom: 4vh;
         color: white;
     }
 
-    .landingpage-modal-content {
+    .remainingpage-modal-content {
         font-family: cursive;
         font-weight: bold;
         margin-top: 0.5vh;
         font-size: 3vw;
     }
 
-    .landingpage-modal-button {
+    .remainingpage-modal-button {
         font-size: 3.5vw;
         margin-left: 1vw;
     }
 
-    .landingpage-modal-content1 {
+    .remainingpage-modal-content1 {
         font-family: cursive !important;
         font-weight: bold !important;
         font-size: 3.2vw;
     }
 
-    .landingpage-modal-card::after {
+    .remainingpage-modal-card::after {
         margin-left: 17vw;
     }
 }
