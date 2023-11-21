@@ -101,6 +101,9 @@ cursor: pointer;
   .App-scroll{
     font-size:2vw;
 }
+.ring{
+  top:87.5vh;left:94.7vw;
+}
 }
 @media (max-width: 750px) {
   .App-logo {
@@ -115,6 +118,9 @@ cursor: pointer;
   .App-scroll{
     font-size:3vw;
 }
+.ring{
+  top:88.1vh;left:95.2vw;
+}
 }
 @media (max-width: 500px) {
   .App-logo {
@@ -128,5 +134,8 @@ cursor: pointer;
   }
   .App-scroll{
     font-size:5vw;
+}
+.ring{
+  top:89.4vh;left:95.9vw;
 }
 }

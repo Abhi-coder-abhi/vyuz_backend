@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import "../css/about.css"
-import RemainingPageModal from '../modals/remaingpage-modal';
+import RemainingPageModal from '../modals/remainingpage-modal';
 import { IoLayers } from 'react-icons/io5';
 
 function AboutUs() {

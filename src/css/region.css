@@ -1,5 +1,5 @@
 .region-menu-button{
-    font-size: 1.6vw;top:88vh;left:94%;position:fixed;color:black;cursor: pointer;;font-weight:bold;
+    font-size: 1.6vw;top:88vh;left:94%;position:fixed;color:white;cursor: pointer;;font-weight:bold;
   }
   .region-ring {
     position: fixed;
@@ -10,6 +10,12 @@
     box-sizing: border-box; 
     cursor: pointer;
   }
+  .region-page-header{
+    margin-top: 7.5vw;
+    font-size: 2vw;
+    text-align: center;
+    font-weight: bold; 
+  }
   @media (prefers-reduced-motion: no-preference) {
     .region-ring{
       animation: region-ring-spin infinite 2.5s linear;
@@ -19,12 +25,12 @@
         0% {
           transform:  scale(1) ;
           opacity: 0;
-          outline:  black;
+          outline:  white;
         }
         50% {
           transform:  scale(7) ;
           opacity: 1;
-          border: 0.1px solid black;
+          border: 0.1px solid white;
         }
         100% {
           transform:  scale(10) ;

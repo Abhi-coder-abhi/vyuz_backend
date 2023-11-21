@@ -20,9 +20,10 @@ function RemainingPageModal({ isOpen, onClose }) {
           <div className='remainingpage-modal-content1' onClick={() => navigate('/events')}>Events</div>
           <div className='remainingpage-modal-content1' onClick={() => navigate('/contact')}>
            Contact Us</div>
+           <div className='remainingpage-modal-button' onClick={onClose}><IoCloseCircleOutline /></div>
         </div>
         <div style={{ marginTop: "1.5vh" }}>
-          <div className='remainingpage-modal-button' onClick={onClose}><IoCloseCircleOutline /></div>
+        
         </div>
       </div>
     </Card>

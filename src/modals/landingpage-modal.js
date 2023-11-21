@@ -20,9 +20,9 @@ function LandingPageModal({ isOpen, onClose }) {
           <div className='landingpage-modal-content1' onClick={() => navigate('/events')}>Events</div>
           <div className='landingpage-modal-content1' onClick={() => navigate('/contact')}>
            Contact Us</div>
+           <div className='landingpage-modal-button' onClick={onClose}><IoCloseCircleOutline /></div>
         </div>
         <div style={{ marginTop: "1.5vh" }}>
-          <div className='landingpage-modal-button' onClick={onClose}><IoCloseCircleOutline /></div>
         </div>
       </div>
     </Card>

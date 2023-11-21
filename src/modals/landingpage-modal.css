@@ -4,7 +4,7 @@
     left: 81vw;
     z-index: 10;
     width: 13vw;
-    background-color: rgba(0, 0, 0, 0.5) !important;
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 1)) !important;
     box-shadow: 1px 1px 4px rgb(20, 184, 234) !important;
 }
 
@@ -15,8 +15,10 @@
 
 .landingpage-modal-button {
     font-size: 1.8vw;
-    margin-left: 2vw;
+    margin-left: 0.5vw;
     color: white;
+    position: absolute;
+    top: 1vw;
 }
 
 .landingpage-modal-button:hover {
@@ -66,7 +68,7 @@
 
 .landingpage-modal-card::before {
     transform: skewX(-45deg);
-    border-top: 7px solid rgba(20, 184, 234, 0.6);
+    
     margin-right: 4vw;
 }
 
@@ -74,7 +76,7 @@
     transform: skewX(135deg);
     bottom: 0;
     top: auto;
-    border-bottom: 7px solid rgba(20, 184, 234, 0.6);
+    
     margin-left: 4vw;
 }
 
@@ -85,6 +87,7 @@
         width: 14vw;
         left: 80vw;
     }
+
 }
 
 @media (max-width: 900px) {
