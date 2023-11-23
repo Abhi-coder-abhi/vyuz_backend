@@ -31,23 +31,20 @@ function EventCard(props) {
       {isModalOpen && (
         <div className='event-card-modal-overlay'>
           <Card className="event-card-modal">
-
-            <div className='event-card-modal-header'>VYUG UNVEIL</div>
-            <div className='event-card-modal-close' onClick={() => setIsModalOpen(false)}><IoCloseCircleOutline /></div>
-            <div className='event-card-modal-header-text'>"Bridging virtual with real!"</div>
-            <div className='event-card-modal-container'>
-              <div className='event-card-modal-about-container'>
-                <div className='event-card-modal-about'>About</div>
-                <p style={{ textAlign: "center" }}>Experience the extraordinary at VYUG Unveil, a groundbreaking event offering a sneak peek into the revolutionary VYUG Metaverse. This star-studded affair promises a technological and presentational spectacle unlike anything attempted in the country before.
-                  Don't miss your chance to be part of history in the making—secure your spot and witness the future unfold.</p>
-              </div>
-              <Card className='event-card-modal-card'>
-                <div style={{ textAlign: "center", color: "white", fontWeight: "500", marginTop: "0.4vw" }}>04 – 08 pm</div>
-                <div style={{ textAlign: "center", color: "white", fontWeight: "500" }}>16th December, 2023</div>
-                <div style={{ textAlign: "center", color: "white", fontWeight: "500" }}>Delhi NCR</div>
-              </Card>
-            </div>
-            <button className='event-card-modal-button' onClick={() => navigate('/event-register')}>Register</button>
+          <div
+          className="event-card-image"
+          style={{
+            backgroundImage: `url(${require('../images/icons/event-about.webp')})`,
+          }}
+        />
+<p className='event-card-modal-content' style={{textAlign:"center"}}> Experience the extraordinary at VYUG Unveil, a groundbreaking event offering a sneak peek into the revolutionary VYUG Metaverse. 
+  This star-studded affair promises a technological and presentational spectacle unlike anything attempted in the country before. 
+  Don't miss your chance to be part of history in the making—secure your spot and witness the future unfold.</p>
+  <p className='event-card-modal-content1' style={{textAlign:"center"}}>16th DECEMBER, 2023</p>
+  <p className='event-card-modal-content2' style={{textAlign:"center"}}>4pm onwards</p>
+  <p className='event-card-modal-content3' style={{textAlign:"center"}}>INDIA EXPO MART, GREATER NOIDA</p>
+           
+<img src={require(`../images/icons/REGISTER.webp`)} alt={` button`} className='event-card-modal-button' onClick={() => navigate('/event-register')}/>
           </Card>
         </div>
       )}

@@ -17,7 +17,7 @@ function LandingPageModal({ isOpen, onClose }) {
             Home</div>
           <div className='landingpage-modal-content1' onClick={() => navigate('/about')}>
             About Us</div>
-            <div className='landingpage-modal-content1' onClick={() => navigate('/events')}>Region</div>
+         
           <div className='landingpage-modal-content1' onClick={() => navigate('/events')}>Events</div>
           <div className='landingpage-modal-content1' onClick={() => navigate('/contact')}>
            Contact Us</div>

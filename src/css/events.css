@@ -1,5 +1,5 @@
 .events-menu-button{
-    font-size: 1.6vw;top:88vh;left:94vw;position:fixed;color:black;cursor: pointer;;font-weight:bold;
+    font-size: 1.6vw;top:88vh;left:94vw;position:fixed;color:white;cursor: pointer;;font-weight:bold;
   }
   .events-ring {
     position: fixed;
@@ -10,10 +10,18 @@
     box-sizing: border-box; 
     cursor: pointer;
   }
+  .events-page-background{
+    background: url("../images/icons/event.webp") no-repeat center fixed;
+    background-size: cover;
+    height: 100vh;
+    object-fit: cover;
+  }
   .events-page-header{
-    margin-top: 7.5vw;
-    font-size: 2vw;
-    text-align: center;
+    position: absolute;
+    top: 5vw;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3vw;
     font-weight: bold; 
   }
   .events-page-container{
@@ -21,7 +29,7 @@
     flex-wrap: wrap;
     margin-left: 10vw;
     margin-right: 15vw;
-    margin-top: 5vw;
+    margin-top: 10vw;
     margin-bottom: 5vw;
   }
   @media (prefers-reduced-motion: no-preference) {
@@ -33,16 +41,16 @@
         0% {
           transform:  scale(1) ;
           opacity: 0;
-          outline:  black;
+          outline:  white;
         }
         50% {
           transform:  scale(7) ;
           opacity: 1;
-          border: 0.1px solid black;
+          border: 0.1px solid white;
         }
         100% {
           transform:  scale(10) ;
           opacity: 0;
-          border: 0.1px solid black;
+          border: 0.1px solid white;
         }
       }

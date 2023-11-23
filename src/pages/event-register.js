@@ -10,9 +10,10 @@ function EventRegistrationForm() {
    console.log(height)
     return (
         <div>
+            <img src={require(`../images/icons/event_banner.webp`)} style={{ width: "100vw",height:"15vw" }} alt={` banner`} />
             <div className='register-page-header'>Registration Form</div>
             <Card className='register-page-form' >
-                <div className='register-page-container' >
+                <div className='register-page-container' style={{backgroundColor: "#f5f5f5" }} >
                     <div style={{ display: "flex", flexDirection: "column" }} className='register-page-detail'>
                         <div className="register-page-top-container">
                             <div>

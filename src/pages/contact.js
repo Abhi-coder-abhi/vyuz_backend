@@ -1,9 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import "../css/contact.css"
-import RemainingPageModal from '../modals/remainingpage-modal';
+import LandingPageModal from '../modals/landingpage-modal';
 import { IoLayers } from "react-icons/io5";
 import { Box, Card } from '@mui/material';
-import backgroundImage from '../images/icons/contact-theme.jpg';
 import { SocialIcon } from 'react-social-icons'
 import 'react-social-icons/facebook'
 import 'react-social-icons/instagram'
@@ -14,7 +13,8 @@ function ContactUs() {
   const [isModalOpen, setIsModalOpen] = useState(false);
   return (
     <div  >
-      <div className='contact-page-header'><span style={{ borderBottom: "2px solid black", display: 'inline-block', fontFamily: "Poppins", color: "black" }}>Contact Us</span></div>
+         <img src={require(`../images/icons/event_banner.webp`)} style={{ width: "100vw",height:"15vw" }} alt={` banner`} />
+            <div className='events-page-header'><span style={{ borderBottom: "2px solid white", display: 'inline-block', fontFamily: "Poppins", color: "white" }}>Contact Us</span></div>
       <div className='contact-page-header'><span style={{ borderBottom: "2px solid black", display: 'inline-block', fontFamily: "Poppins", color: "black" }}>Let's Start a Conversation</span></div>
 
       <Card className='contact-page-form' >
@@ -44,7 +44,7 @@ function ContactUs() {
 
       <div onClick={() => setIsModalOpen(!isModalOpen)} className='contact-menu-button'><IoLayers /></div>
       <div onClick={() => setIsModalOpen(!isModalOpen)} className="contact-ring"></div>
-      <RemainingPageModal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)} />
+      <LandingPageModal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)} />
     </div>
 
   );

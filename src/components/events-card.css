@@ -67,19 +67,7 @@ border-radius: 10px;
 .event-card-modal-card{
   width: 8vw;height: 7vw;margin-left:4vw;margin-top: 8vw;background-color: rgb(202, 134, 146)!important;
 }
-.event-card-modal-about-container{
-  width:60%;
-  margin-left: 2vw;margin-top: 5vw;
-}
-.event-card-modal-about{
-text-align: center;font-size: 1.3vw;font-weight: 500;text-decoration: underline;background: rgb(213, 104, 122);color: white;
-}
-.event-card-modal-header{
-margin-top: 2vw;color: white;font-weight: 700;font-size: 2vw; text-align: center; background: rgb(80, 160, 192);
-}
-.event-card-modal-header-text{
-  margin-top:1vw;color: white;font-weight: 550;font-size: 1.5vw; text-align: center; background: rgb(155, 217, 242);
-  }
+
 .event-card-modal-close{
   top:1%;color: black;font-weight: 700;font-size: 2vw;position: absolute;left:95%;cursor: pointer;
   }
@@ -93,6 +81,23 @@ margin-top: 2vw;color: white;font-weight: 700;font-size: 2vw; text-align: center
     z-index: 999; /* higher z-index to ensure it covers everything */
 }
 .event-card-modal-button{
-  margin-top: 1.5vw;margin-bottom: 2vw;font-size: 1.5vw;background-color: blue;color: white;
-  margin-left: 17vw;  width: 7vw;cursor: pointer;border: 1px solid white;box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.5);
+background-color: transparent;color: white;cursor: pointer;   top: 92%;
+left: 50%;transform: translate(-50%, -50%);position: absolute;width:6vw;
+
+}
+.event-card-modal-content{
+  color: white;   top: 40%;
+left: 50%;position: absolute;width:24vw;transform: translate(-50%, -50%);font-size: 1vw;
+}
+.event-card-modal-content1{
+  color: white;   top: 66%;
+left: 50%;position: absolute;width:24vw;transform: translate(-50%, -50%);font-size: 1.2vw;font-weight: 700;
+}
+.event-card-modal-content2{
+  color: white;   top: 71%;
+left: 50%;position: absolute;width:24vw;transform: translate(-50%, -50%);font-size: 1.2vw;font-weight: 700;
+}
+.event-card-modal-content3{
+  color: white;   top: 76%;
+left: 50%;position: absolute;width:24vw;transform: translate(-50%, -50%);font-size: 1.2vw;font-weight: 700;
 }

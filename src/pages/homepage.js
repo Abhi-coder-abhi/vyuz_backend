@@ -15,7 +15,7 @@ function HomePage() {
   const scrollProgress = () => {
     const scrollpx = document.documentElement.scrollTop;
     const winHeightpx = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-    const scrollLen = Math.ceil((scrollpx / winHeightpx) * 157);
+    const scrollLen = Math.ceil((scrollpx / winHeightpx) * 161);
     console.log(scrollLen)
     setCurrentImageIndex(scrollLen);
   };
@@ -47,7 +47,7 @@ function HomePage() {
         <div onClick={() => setIsModalOpen(!isModalOpen)} className='App-menu-button'><IoLayers /></div>
         <div onClick={() => setIsModalOpen(!isModalOpen)} className="ring"></div>
         <div onClick={scrollDown} className='App-scroll-button'> <img src={ScrollIcon} alt={` ${currentImageIndex + 1}`} /></div>
-        <div className='App-scroll'>Scroll to Move</div>
+        <div className='App-scroll'>scroll</div>
       </header>
       {isRegisterModalOpen && (
         <div className='homepage-register-modal-overlay'>
@@ -60,7 +60,7 @@ function HomePage() {
               }}
             />
            <div className='homepage-register-modal-button1' onClick={() => setIsRegisterModalOpen(false)}><IoCloseCircleOutline/></div>
-            <button className='homepage-register-modal-button' onClick={() => navigate('/events')}>Register</button>
+           <img src={require(`../images/icons/REGISTER.webp`)} alt={` button`} className='homepage-register-modal-button' onClick={() => navigate('/events')}/>
           </Card>
 
         </div>
