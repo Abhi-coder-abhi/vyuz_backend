@@ -10,7 +10,7 @@ function Events() {
         <div>
             <div className='events-page-header'><span style={{ borderBottom: "2px solid black", display: 'inline-block', fontFamily: "Poppins", color: "black" }}>Events</span></div>
             <div className='events-page-container'>
-                <EventCard name="VYUG"/>
+                <EventCard name="VYUG UNVEIL"/>
             </div>
             <div onClick={() => setIsModalOpen(!isModalOpen)} className='events-menu-button'><IoLayers /></div>
             <div onClick={() => setIsModalOpen(!isModalOpen)} className="events-ring"></div>

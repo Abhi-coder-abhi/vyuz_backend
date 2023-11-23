@@ -20,7 +20,7 @@
 }
 
 .event-card-card:hover::before {
-  opacity: 1; /* Set the opacity value for hover state */
+  opacity: 1; 
 }
 
 .event-card-card:hover{
@@ -32,7 +32,6 @@
     transform: translate(-50%, -50%);
     opacity: 0; 
     color: azure;font-family: Poppins;font-size: 1.5vw;
-    /* Add other styles for the centered content on hover */
   }
  .hovered .event-card-centered-content {
     transition: opacity 0.5s ease-in-out; 
@@ -53,19 +52,47 @@
   }
 .event-card-modal{
    position: fixed;
-   top: 30vh;
-left: 20vw;
+   top: 40vh;
+left: 50vw;
+width:40vw;
+height: 33     vw;
 background:white;
 z-index: 100;
 transform: translate(-50%, -50%);
 border-radius: 10px;
 }
+.event-card-modal-container{
+  display: flex;
+}
+.event-card-modal-card{
+  width: 8vw;height: 7vw;margin-left:4vw;margin-top: 8vw;background-color: rgb(202, 134, 146)!important;
+}
+.event-card-modal-about-container{
+  width:60%;
+  margin-left: 2vw;margin-top: 5vw;
+}
+.event-card-modal-about{
+text-align: center;font-size: 1.3vw;font-weight: 500;text-decoration: underline;background: rgb(213, 104, 122);color: white;
+}
+.event-card-modal-header{
+margin-top: 2vw;color: white;font-weight: 700;font-size: 2vw; text-align: center; background: rgb(80, 160, 192);
+}
+.event-card-modal-header-text{
+  margin-top:1vw;color: white;font-weight: 550;font-size: 1.5vw; text-align: center; background: rgb(155, 217, 242);
+  }
+.event-card-modal-close{
+  top:1%;color: black;font-weight: 700;font-size: 2vw;position: absolute;left:95%;cursor: pointer;
+  }
 .event-card-modal-overlay{
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.4); /* semi-transparent black background */
+    background: rgba(0, 0, 0, 0.7 ); /* semi-transparent black background */
     z-index: 999; /* higher z-index to ensure it covers everything */
+}
+.event-card-modal-button{
+  margin-top: 1.5vw;margin-bottom: 2vw;font-size: 1.5vw;background-color: blue;color: white;
+  margin-left: 17vw;  width: 7vw;cursor: pointer;border: 1px solid white;box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.5);
 }

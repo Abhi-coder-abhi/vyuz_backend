@@ -4,6 +4,7 @@ import { IoCloseCircleOutline } from "react-icons/io5";
 import "./landingpage-modal.css"
 import { useNavigate } from 'react-router-dom';
 
+
 function LandingPageModal({ isOpen, onClose }) {
   const navigate = useNavigate();
   if (!isOpen) return null;

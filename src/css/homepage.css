@@ -5,7 +5,7 @@
 }
 
 .App-logo {
-  height:6vw;width:6vw;top:7vh;left:4vw;position:absolute;
+  height:6.7vw;width:6vw;top:7vh;left:4vw;position:absolute;
 }
 .App-menu-button{
   font-size: 1.6vw;top:88vh;left:94%;position:absolute;color:white;font-weight:bold;
@@ -48,6 +48,46 @@ cursor: pointer;
 
 .App-link {
   color: #61dafb;
+}
+.homepage-register-modal-image{
+  width: 100%;height: 30vw;  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.homepage-register-modal-button1 {
+  position: absolute;
+  top: 10%;
+  left: 92%;
+  transform: translate(-50%, -50%); 
+  color: white;font-family: Poppins;font-size: 1.5vw;cursor: pointer;font-size: 2vw;
+}
+.homepage-register-modal-button {
+  position: absolute;
+  top: 90%;
+  left: 91%;
+  transform: translate(-50%, -50%);
+  color: white;font-family: Poppins;font-size: 1vw;
+  background-color:gray;cursor: pointer;z-index: 200;border:2px solid white;
+  /* Add other styles for the centered content on hover */
+}
+.homepage-register-modal{
+  position: fixed;
+  top: 50vh;
+left: 50vw;
+width:50vw;
+background:white;
+z-index: 100;
+transform: translate(-50%, -50%);
+border-radius: 10px;
+}
+.homepage-register-modal-overlay{
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background: rgba(0, 0, 0, 0.4); /* semi-transparent black background */
+   z-index: 999; /* higher z-index to ensure it covers everything */
 }
 
 @media (prefers-reduced-motion: no-preference) {

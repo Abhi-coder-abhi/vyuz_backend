@@ -28,7 +28,7 @@ function ContactUs() {
             <textarea className='contact-page-inp' type="text" />
             <button className='contact-page-button' >Submit</button>
           </div>
-          <div style={{ backgroundImage: `url(${backgroundImage})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat' }} className='contact-page-image'>
+          <div style={{ backgroundImage: `url("https://imagedelivery.net/eqKVXuoRSPryHQbfbappvg/c4fbd631-4dc4-4e3e-ce5a-4b3aff0fea00/public")`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat' }} className='contact-page-image'>
             <div className='contact-page-links-title'>Connect Us</div>
             <div className='contact-page-links'>
               

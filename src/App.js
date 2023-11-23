@@ -5,6 +5,7 @@ import React, { useState, useEffect } from 'react';
  import AboutUs from './pages/about';
  import Events from './pages/events';
  import Region from './pages/region';
+ import EventRegistrationForm from './pages/event-register';
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="/events" element={<Events />} />
         <Route path="/region" element={<Region />} />
+        <Route path="/event-register" element={<EventRegistrationForm />} />
       </Routes>
     </Router>
     

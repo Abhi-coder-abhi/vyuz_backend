@@ -6,8 +6,7 @@ import { useNavigate } from 'react-router-dom';
 
 function RemainingPageModal({ isOpen, onClose }) {
   const navigate = useNavigate();
-  if (!isOpen) return null;
-  
+  if (!isOpen) return null; 
   return (
     <Card className='remainingpage-modal-card' >
       <div className='remainingpage-modal-container'>
