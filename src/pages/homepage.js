@@ -56,7 +56,7 @@ function HomePage() {
             <div
               className="homepage-register-modal-image"
               style={{
-                backgroundImage: `url("https://imagedelivery.net/eqKVXuoRSPryHQbfbappvg/c22b4dda-807f-4305-b30b-c45474571300/public")`,
+                backgroundImage: `url("https://imagedelivery.net/eqKVXuoRSPryHQbfbappvg/94fe100b-4aa6-4bc9-51bd-9cee5a204300/public")`,
               }}
             />
            <div className='homepage-register-modal-button1' onClick={() => setIsRegisterModalOpen(false)}><IoCloseCircleOutline/></div>

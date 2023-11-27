@@ -32,7 +32,7 @@
   .contact-page-inp{
  font-size: 1.3vw;font-family: Poppins;  border: 0;
     outline: 0;
-    border-bottom: 2px solid black;width :50vw;margin-left: 2vw;background-color: #f5f5f5;
+    border-bottom: 2px solid black;width :50vw;margin-left: 2vw;background-color: #f5f5f5!important;
   }
   .contact-page-container{
     display: flex;
@@ -56,13 +56,13 @@
       animation: contact-ring-spin infinite 2.5s linear;
     }
     .contact-page-form{
-        animation: card-open   1s linear;
+        animation: card-open-contact  1s linear;
     }
     .contact-page-links{
       animation: link-open 1.5s linear;
     }
     }
-    @keyframes card-open {
+    @keyframes card-open-contact {
         from {
             transform: translateX(-100%);
           }

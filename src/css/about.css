@@ -1,15 +1,98 @@
 .about-menu-button{
-    font-size: 1.6vw;top:88vh;left:94vw;position:fixed;color:white;cursor: pointer;;font-weight:bold;
+    font-size: 1.6vw;top:88vh;left:94vw;position:fixed;color:white;cursor: pointer;;font-weight:bold;z-index:100;
   }
   .about-ring {
     position: fixed;
-    top:89.3vh;left:94.6vw;
+    top:89.3vh;left:94.7vw;
     width: 5px; /* Set the desired width of the circle */
     height: 5px; /* Set the desired height of the circle */
     border-radius: 50%;
     box-sizing: border-box; 
     cursor: pointer;
+    z-index:100;
   }
+
+      .about-page-container1{
+        display: flex;margin-left: 5vw;margin-top: 5vw;
+      }
+      .about-page-text1{
+        color:white;font-size: 1.2vw;width: 35vw;text-align: center;margin-left: 5vw;font-weight: 500;
+      }
+      .about-page-container1-text{
+margin-left: 5vw;margin-top: 2vw;color: white;font-size: 1.3vw;font-weight: 550;text-align: center;
+      }
+      .about-page-container2-title{
+       margin-top: 8vw;color: white;font-size: 1.8vw;font-weight: 650;text-decoration:  underline;
+       animation: card-content10  3s , cursor1 .4s step-start infinite alternate; overflow: hidden; white-space: nowrap;width:100%;
+      }
+      .about-page-container2-text{
+        margin-left: 9vw;margin-top: 2vw;color: white;font-size: 1.2vw;font-weight: 500;text-align: center;margin-right: 9vw;
+      }
+      .about-page-container3{
+        display: flex;margin-left: 5vw;margin-top: 2vw;
+      }
+      .about-page-container3-text1{
+        color:white;font-size: 1.2vw;width: 40vw;text-align: center;margin-left: 44vw;font-weight: 500;margin-top: 2.5vw;
+      }
+      .about-page-container3-text{
+        color:white;font-size: 1.2vw;width: 40vw;text-align: center;margin-left: 44vw;font-weight: 500;
+      }
+      .about-page-card{
+        background-color: rgb(102, 148, 183);margin-top: 5vw;width:100%;padding-bottom: 4vw;z-index: 50;
+      }
+      .about-page-card-title{
+      font-size: 1.8vw;padding-top: 5vw;font-weight: 650;text-decoration: underline;color: white;
+      animation: card-content  2s , cursor .5s step-start infinite alternate; overflow: hidden;width: 100%;text-align: center;
+      }
+    .about-page-card-container1{
+      display:flex;
+    }
+    .about-page-card-container1-text{
+      color:black;font-size: 1.2vw;width: 35vw;text-align: center;margin-left: 14vw;font-weight: 500;margin-top: 4vw;
+      color:white;
+    }
+    .about-page-card-container1-text1{
+      color:black;font-size: 1.2vw;width: 35vw;text-align: center;margin-left: 14vw;font-weight: 500;margin-top: 2vw;
+      color:white;
+    }
+    .about-page-card-container2{
+      display:flex;margin-top: 8vw;
+    }
+    .about-page-card-container1-image-text{
+      text-align: center;width:40vw;margin-top: 18vw;font-size: 1.8vw;font-weight: 600;color:white;
+    }
+    .about-page-card-container1-image-text1{
+      text-align: center;width:40vw;font-size: 1.8vw;font-weight: 600;color:white;
+    }
+    .about-page-card-container2-image-text{
+      text-align: center;width:40vw;margin-top: 15vw;font-size: 1.8vw;font-weight: 600;margin-left: 10vw;color:white;
+    }
+    .about-page-card-container2-image-text1{
+      text-align: center;width:40vw;font-size: 1.8vw;font-weight: 600;margin-left: 10vw;color:white;
+    }
+    .about-page-card-container2-text{
+      color:white;font-size: 1.2vw;width: 35vw;text-align: center;margin-left: 9vw;font-weight: 500;margin-top: 4vw;
+    }
+    .about-page-card-container2-text1{
+      color:white;font-size: 1.2vw;width: 35vw;text-align: center;margin-left: 9vw;font-weight: 500;margin-top: 2vw;
+    }
+    .about-page-header{
+      position: absolute;
+      top: 7vw;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 3vw;
+      font-weight: bold; 
+      color:transparent;
+      -webkit-text-stroke: 0.1px #fff;
+      background: url("../images/icons/back.webp") center/cover;
+-webkit-background-clip: text;
+background-position: 0 0;
+animation: back 20s linear infinite;
+    }
+    .about-page-full-container3{
+width: 100%;overflow: hidden;top:0vw;left:0vw;
+    }
   @media (prefers-reduced-motion: no-preference) {
     .about-ring{
       animation: about-ring-spin infinite 2.5s linear;
@@ -32,3 +115,19 @@
           border: 0.1px solid white;
         }
       }
+    @keyframes back {
+      100%{
+        background-position: 1500px 0;
+      }
+    }
+    @keyframes cursor1 {
+      50%{border-color: transparent;}
+     }
+     @keyframes card-content10 {
+      from {
+        width: 0%;left: 50%;
+transform: translateX(-50%);
+      }
+ to{transform: translateX(-50%);left: 50%;}
+      }
+      

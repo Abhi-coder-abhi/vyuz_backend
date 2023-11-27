@@ -5,12 +5,11 @@ import { IoLayers } from 'react-icons/io5';
 import EventCard from '../components/events-card';
 function Events() {
     const [isModalOpen, setIsModalOpen] = useState(false);
-   document.body.style.backgroundColor = 'rgba(0, 0, 0, 0.8)'
     return (
 
         <div >
              <img src={require(`../images/icons/event_banner.webp`)} style={{ width: "100vw",height:"15vw" }} alt={` banner`} />
-            <div className='events-page-header'><span style={{ borderBottom: "2px solid white", display: 'inline-block', fontFamily: "Poppins", color: "white" }}>EVENTS</span></div>
+            <div className='events-page-header'><span style={{ borderBottom: "2px solid white", display: 'inline-block', fontFamily: "Poppins",  }}>EVENTS</span></div>
             <div className='events-page-container'>
                 <EventCard name="VYUG UNVEIL"/>
             </div>

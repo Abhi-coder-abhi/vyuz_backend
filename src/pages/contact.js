@@ -14,7 +14,7 @@ function ContactUs() {
   return (
     <div  >
          <img src={require(`../images/icons/event_banner.webp`)} style={{ width: "100vw",height:"15vw" }} alt={` banner`} />
-            <div className='events-page-header'><span style={{ borderBottom: "2px solid white", display: 'inline-block', fontFamily: "Poppins", color: "white" }}>Contact Us</span></div>
+            <div className='events-page-header'><span style={{ borderBottom: "2px solid white", display: 'inline-block', fontFamily: "Poppins", }}>Contact Us</span></div>
       <div className='contact-page-header'><span style={{ borderBottom: "2px solid black", display: 'inline-block', fontFamily: "Poppins", color: "black" }}>Let's Start a Conversation</span></div>
 
       <Card className='contact-page-form' >

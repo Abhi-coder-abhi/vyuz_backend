@@ -23,6 +23,12 @@
     transform: translate(-50%, -50%);
     font-size: 3vw;
     font-weight: bold; 
+    color:transparent;
+    -webkit-text-stroke: 0.1px #fff;
+    background: url("../images/icons/back.webp") center/cover;
+-webkit-background-clip: text;
+background-position: 0 0;
+animation: back 20s linear infinite;
   }
   .events-page-container{
     display: flex;

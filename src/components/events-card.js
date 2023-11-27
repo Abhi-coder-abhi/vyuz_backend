@@ -18,7 +18,7 @@ function EventCard(props) {
         <div
           className="event-card-image"
           style={{
-            backgroundImage: `url("https://imagedelivery.net/eqKVXuoRSPryHQbfbappvg/c22b4dda-807f-4305-b30b-c45474571300/public")`,
+            backgroundImage: `url("https://imagedelivery.net/eqKVXuoRSPryHQbfbappvg/94fe100b-4aa6-4bc9-51bd-9cee5a204300/public")`,
           }}
         />
         <div className="event-card-centered-content">
@@ -34,7 +34,7 @@ function EventCard(props) {
           <div
           className="event-card-image"
           style={{
-            backgroundImage: `url(${require('../images/icons/event-about.webp')})`,
+            backgroundImage: `url("https://imagedelivery.net/eqKVXuoRSPryHQbfbappvg/c7f79c5b-7e88-45bb-0aa2-482addb89f00/public")`,
           }}
         />
 <p className='event-card-modal-content' style={{textAlign:"center"}}> Experience the extraordinary at VYUG Unveil, a groundbreaking event offering a sneak peek into the revolutionary VYUG Metaverse. 
