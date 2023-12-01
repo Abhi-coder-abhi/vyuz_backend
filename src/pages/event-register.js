@@ -28,7 +28,7 @@ function EventRegistrationForm() {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    fetch("http://localhost:4000/sendData", {
+    fetch("http://65.0.102.90//sendData", {
       method: "POST",
       headers: {
         "Content-Type": "application/json", // Set the content type to JSON
@@ -75,7 +75,7 @@ function EventRegistrationForm() {
                         <input className='register-page-inp' type="text" onChange={handleChange} name="address"/>
                         <div className='register-page-label'>Date Of Birth</div>
                         <input className='register-page-inp' type="date" onChange={handleChange} name="dateOfBirth"/>
-                        <img src={submitIcon} className='register-page-button' alt={` button`}  onClick={() => navigate('/event-register')}/>
+                        <img src={submitIcon} className='register-page-button' alt={` button`}  onClick={handleSubmit}/>
                     </div>
                 </div>
             </Card>

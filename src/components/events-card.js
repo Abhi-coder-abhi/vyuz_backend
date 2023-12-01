@@ -38,12 +38,13 @@ function EventCard(props) {
             backgroundImage: `url("https://imagedelivery.net/eqKVXuoRSPryHQbfbappvg/c7f79c5b-7e88-45bb-0aa2-482addb89f00/public")`,
           }}
         />
-<p className='event-card-modal-content' style={{textAlign:"center"}}> Experience the extraordinary at VYUG Unveil, a groundbreaking event offering a sneak peek into the revolutionary VYUG Metaverse. 
-  This star-studded affair promises a technological and presentational spectacle unlike anything attempted in the country before. 
-  Don't miss your chance to be part of history in the making—secure your spot and witness the future unfold.</p>
-  <p className='event-card-modal-content1' style={{textAlign:"center"}}>16th DECEMBER, 2023</p>
-  <p className='event-card-modal-content2' style={{textAlign:"center"}}>4pm onwards</p>
-  <p className='event-card-modal-content3' style={{textAlign:"center"}}>INDIA EXPO MART, GREATER NOIDA</p>
+         <div className='homepage-register-modal-button1' onClick={() => setIsModalOpen(false)}><IoCloseCircleOutline/></div>
+<p className='event-card-modal-content' > Experience the extraordinary at VYUG Unveil, a groundbreaking event offering a sneak peek into the revolutionary VYUG Metaverse. 
+  This     starstudded affair promises a technological and presentational spectacle unlike anything attempted in the country before. 
+  Don't miss your chance to be part of history in the making secure your spot and witness the future unfold.</p>
+  <p className='event-card-modal-content1' >Date: 16th December, 2023</p>
+  <p className='event-card-modal-content2' >Time: 4 PM onwards</p>
+  <p className='event-card-modal-content3' >Venue: India Expo Centre, Greater Noida</p>
            
 <img src={RegisterIcon} alt={` button`} className='event-card-modal-button' onClick={() => navigate('/event-register')}/>
           </Card>

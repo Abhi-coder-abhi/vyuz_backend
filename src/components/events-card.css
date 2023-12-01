@@ -108,7 +108,7 @@ overflow: hidden; white-space: nowrap;
       animation: card-open   1.5s linear;
   }
   }
-@keyframes card-open {
+@keyframes car-open {
   0% {
     transform: translatey(100%) scale(1.3) ;
   }
