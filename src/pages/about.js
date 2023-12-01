@@ -49,7 +49,7 @@ function AboutUs() {
       <div className='about-page-container2-title'>Why The World Needs VYUG?</div>
       <div className='about-page-container2-text'>If you want to explore Metaverse, you should do it with the best. The world needs VYUG because the world needs CHANGE. Just imagine a world where users become owners, and innovation knows no boundaries. We are saying so because VYUG is not only about experiencing virtual reality, it is about living in it.
         The real potential of this metaverse is far beyond the limits of your imagination, and yes, that is what we are coming up with.</div>
-      <div className='about-page-full-container3' style={{position: yPosition,overflow:"hidden", zIndex: yPosition === 'sticky' ? '0' : '1', }}>
+      <div className='about-page-full-container3' style={{position: yPosition,overflow:"hidden"}}>
         <div className='about-page-container2-title'>Changing The Face Of Virtual Reality </div>
         <div className='about-page-container3'>
           <div>

@@ -11,7 +11,7 @@
     cursor: pointer;
   }
   .events-page-background{
-    background: url("../images/icons/event.webp") no-repeat center fixed;
+    background: url("../images/icons/register_bg.webp") no-repeat center fixed;
     background-size: cover;
     height: 100vh;
     object-fit: cover;

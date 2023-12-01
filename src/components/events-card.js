@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Card } from '@mui/material';
 import "../components/events-card.css"
 import { IoCloseCircleOutline } from "react-icons/io5";
+import RegisterIcon from "../images/icons/register.svg"
 import { useNavigate } from 'react-router-dom';
 function EventCard(props) {
   const navigate = useNavigate();
@@ -44,7 +45,7 @@ function EventCard(props) {
   <p className='event-card-modal-content2' style={{textAlign:"center"}}>4pm onwards</p>
   <p className='event-card-modal-content3' style={{textAlign:"center"}}>INDIA EXPO MART, GREATER NOIDA</p>
            
-<img src={require(`../images/icons/REGISTER.webp`)} alt={` button`} className='event-card-modal-button' onClick={() => navigate('/event-register')}/>
+<img src={RegisterIcon} alt={` button`} className='event-card-modal-button' onClick={() => navigate('/event-register')}/>
           </Card>
         </div>
       )}

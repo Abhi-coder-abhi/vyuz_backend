@@ -16,17 +16,18 @@
         display: flex;margin-left: 5vw;margin-top: 5vw;
       }
       .about-page-text1{
-        color:white;font-size: 1.2vw;width: 35vw;text-align: center;margin-left: 5vw;font-weight: 500;
+        color:white;font-size: 1.2vw;width: 35vw;text-align: center;margin-left: 5vw;font-weight: 500;animation: card-content10  3s  linear; 
       }
       .about-page-container1-text{
 margin-left: 5vw;margin-top: 2vw;color: white;font-size: 1.3vw;font-weight: 550;text-align: center;
       }
+    
       .about-page-container2-title{
-       margin-top: 8vw;color: white;font-size: 1.8vw;font-weight: 650;text-decoration:  underline;
-       animation: card-content10  3s , cursor1 .4s step-start infinite alternate; overflow: hidden; white-space: nowrap;width:100%;
+       margin-top: 8vw;color: white;font-size: 1.8vw;font-weight: 650;text-decoration:  underline;text-align: center;
+ overflow: hidden; white-space: nowrap;width:100%;
       }
       .about-page-container2-text{
-        margin-left: 9vw;margin-top: 2vw;color: white;font-size: 1.2vw;font-weight: 500;text-align: center;margin-right: 9vw;
+        margin-left: 9vw;margin-top: 2vw;color: white;font-size: 1.2vw;font-weight: 500;text-align: center;margin-right: 9vw;animation: card-content10  2s  linear; 
       }
       .about-page-container3{
         display: flex;margin-left: 5vw;margin-top: 2vw;
@@ -38,21 +39,21 @@ margin-left: 5vw;margin-top: 2vw;color: white;font-size: 1.3vw;font-weight: 550;
         color:white;font-size: 1.2vw;width: 40vw;text-align: center;margin-left: 44vw;font-weight: 500;
       }
       .about-page-card{
-        background-color: rgb(102, 148, 183);margin-top: 5vw;width:100%;padding-bottom: 4vw;z-index: 50;
+        background-color: rgba(74, 66, 186, 0.962);margin-top: 5vw;width:100%;padding-bottom: 4vw;z-index: 50;
       }
       .about-page-card-title{
       font-size: 1.8vw;padding-top: 5vw;font-weight: 650;text-decoration: underline;color: white;
-      animation: card-content  2s , cursor .5s step-start infinite alternate; overflow: hidden;width: 100%;text-align: center;
+      overflow: hidden;width: 100%;text-align: center;
       }
     .about-page-card-container1{
       display:flex;
     }
     .about-page-card-container1-text{
-      color:black;font-size: 1.2vw;width: 35vw;text-align: center;margin-left: 14vw;font-weight: 500;margin-top: 4vw;
+      font-size: 1.2vw;width: 35vw;text-align: center;margin-left: 14vw;font-weight: 500;margin-top: 4vw;
       color:white;
     }
     .about-page-card-container1-text1{
-      color:black;font-size: 1.2vw;width: 35vw;text-align: center;margin-left: 14vw;font-weight: 500;margin-top: 2vw;
+      font-size: 1.2vw;width: 35vw;text-align: center;margin-left: 14vw;font-weight: 500;margin-top: 2vw;
       color:white;
     }
     .about-page-card-container2{
@@ -120,14 +121,10 @@ width: 100%;overflow: hidden;top:0vw;left:0vw;
         background-position: 1500px 0;
       }
     }
-    @keyframes cursor1 {
-      50%{border-color: transparent;}
-     }
      @keyframes card-content10 {
       from {
-        width: 0%;left: 50%;
-transform: translateX(-50%);
+        opacity: 0;
       }
- to{transform: translateX(-50%);left: 50%;}
+ to{opacity: 1;}
       }
       
